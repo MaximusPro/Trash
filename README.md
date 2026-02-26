@@ -1,4 +1,4 @@
-## Trash
+
 # trash — Simple Linux Trash Utility
 
 A lightweight command-line tool that moves files and directories to the user's Trash folder (`~/.local/share/Trash`) following the Freedesktop.org Trash specification.
