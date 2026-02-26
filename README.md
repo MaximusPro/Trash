@@ -18,3 +18,17 @@ g++ -std=c++17 -Wall trash.cpp -o trash
 g++ -std=c++17 -Wall trash.cpp -lstdc++fs -o trash
 
 sudo cp trash /usr/local/bin/
+```
+# Usage
+```bash
+trash document.pdf
+trash old_project/ *.tmp
+trash /tmp/cache_folder
+```
+# Limitations
+
+Does not support restore, empty trash or list contents (yet)
+Does not handle trash on removable/external drives
+
+License: MIT
+Author: MaximusPro
